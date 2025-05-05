@@ -1,2 +1,3 @@
 # Sentiment-Analysis-Using-LSTM
-This project integrates sentiment analysis with a trading bot using supervised and reinforcement learning. The bot is trained on historical trading data, market indicators, and sentiment data from news and social media, aiming to enhance decision-making and optimize trading strategies for real-time market conditions.
+Sentiment Analysis on IMDB reviews using LSTM. Reviews are tokenized, padded to 250 words, and passed through an Embedding layer and 64-unit LSTM. A Dense sigmoid layer classifies reviews as positive or negative. Achieves \~85% accuracy with visualizations like loss, accuracy, and confusion matrix.
+
